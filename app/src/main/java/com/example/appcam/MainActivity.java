@@ -6,11 +6,17 @@ import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.os.Environment;
 import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
+
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -53,5 +59,4 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(MainActivity.this, "No camera found.", Toast.LENGTH_SHORT).show();
         }
     }
-
 }
