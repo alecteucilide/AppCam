@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    /*
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -50,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
             Bitmap imageBitmap = (Bitmap) extras.get("data");
             ivPhoto.setImageBitmap(imageBitmap);
         }
-    }
+    }*/
 
 
     private void dispatchTakePictureIntent() {
